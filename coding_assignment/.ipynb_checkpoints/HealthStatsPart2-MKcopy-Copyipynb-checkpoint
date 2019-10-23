@@ -107,7 +107,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": 81,
    "metadata": {
     "collapsed": true
    },
@@ -129,7 +129,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 28,
+   "execution_count": 82,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -145,7 +145,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 83,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -155,7 +155,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": 84,
    "metadata": {},
    "outputs": [
     {
@@ -172,7 +172,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 51,
+   "execution_count": 85,
    "metadata": {},
    "outputs": [
     {
@@ -199,17 +199,18 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 44,
+   "execution_count": 2,
    "metadata": {},
    "outputs": [
     {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n",
-      "[30, 32, 30, 33, 29, 32, 33, 30, 30, 32, 24, 25, 24, 22, 26, 26, 25, 26, 28, 23]\n",
-      "[32, 37, 36, 39, 33, 38, 42, 40, 37, 39, 35, 37, 37, 34, 38, 37, 38, 37, 40, 35]\n",
-      "['M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F']\n"
+     "ename": "NameError",
+     "evalue": "name 'rows' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-2-edbb5783c55a>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      6\u001b[0m \u001b[0mhip_lst\u001b[0m \u001b[0;34m=\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      7\u001b[0m \u001b[0mgender_lst\u001b[0m \u001b[0;34m=\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 8\u001b[0;31m \u001b[0;32mfor\u001b[0m \u001b[0mlst\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mrows\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      9\u001b[0m     \u001b[0;31m#print(lst)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     10\u001b[0m     \u001b[0mid_lst\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mappend\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mlst\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'rows' is not defined"
      ]
     }
    ],
@@ -235,14 +236,14 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 45,
+   "execution_count": 87,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "{'ID': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], 'Waist': [30, 32, 30, 33, 29, 32, 33, 30, 30, 32, 24, 25, 24, 22, 26, 26, 25, 26, 28, 23], 'Hip': [32, 37, 36, 39, 33, 38, 42, 40, 37, 39, 35, 37, 37, 34, 38, 37, 38, 37, 40, 35], 'Gender': ['M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F']}\n"
+      "{'ID': [], 'Waist': [], 'Hip': [], 'Gender': []}\n"
      ]
     }
    ],
@@ -265,7 +266,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 46,
+   "execution_count": 88,
    "metadata": {},
    "outputs": [
     {
@@ -295,14 +296,14 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 59,
+   "execution_count": 89,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "[0.9375, 0.8648648648648649, 0.8333333333333334, 0.8461538461538461, 0.8787878787878788, 0.8421052631578947, 0.7857142857142857, 0.75, 0.8108108108108109, 0.8205128205128205, 0.6857142857142857, 0.6756756756756757, 0.6486486486486487, 0.6470588235294118, 0.6842105263157895, 0.7027027027027027, 0.6578947368421053, 0.7027027027027027, 0.7, 0.6571428571428571]\n"
+      "[]\n"
      ]
     }
    ],
@@ -316,14 +317,14 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 60,
+   "execution_count": 90,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "{'ID': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], 'Waist': [30, 32, 30, 33, 29, 32, 33, 30, 30, 32, 24, 25, 24, 22, 26, 26, 25, 26, 28, 23], 'Hip': [32, 37, 36, 39, 33, 38, 42, 40, 37, 39, 35, 37, 37, 34, 38, 37, 38, 37, 40, 35], 'Gender': ['M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F'], 'w2h_ratio': [0.9375, 0.8648648648648649, 0.8333333333333334, 0.8461538461538461, 0.8787878787878788, 0.8421052631578947, 0.7857142857142857, 0.75, 0.8108108108108109, 0.8205128205128205, 0.6857142857142857, 0.6756756756756757, 0.6486486486486487, 0.6470588235294118, 0.6842105263157895, 0.7027027027027027, 0.6578947368421053, 0.7027027027027027, 0.7, 0.6571428571428571], 'shape': 0.9375}\n"
+      "{'ID': [], 'Waist': [], 'Hip': [], 'Gender': [], 'w2h_ratio': []}\n"
      ]
     }
    ],
@@ -337,14 +338,14 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 62,
+   "execution_count": 91,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "['Apple', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear']\n"
+      "[]\n"
      ]
     }
    ],
@@ -366,14 +367,14 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 66,
+   "execution_count": 92,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "{'ID': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], 'Waist': [30, 32, 30, 33, 29, 32, 33, 30, 30, 32, 24, 25, 24, 22, 26, 26, 25, 26, 28, 23], 'Hip': [32, 37, 36, 39, 33, 38, 42, 40, 37, 39, 35, 37, 37, 34, 38, 37, 38, 37, 40, 35], 'Gender': ['M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'M', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F'], 'w2h_ratio': [0.9375, 0.8648648648648649, 0.8333333333333334, 0.8461538461538461, 0.8787878787878788, 0.8421052631578947, 0.7857142857142857, 0.75, 0.8108108108108109, 0.8205128205128205, 0.6857142857142857, 0.6756756756756757, 0.6486486486486487, 0.6470588235294118, 0.6842105263157895, 0.7027027027027027, 0.6578947368421053, 0.7027027027027027, 0.7, 0.6571428571428571], 'shape': ['Apple', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear', 'Pear']}\n"
+      "{'ID': [], 'Waist': [], 'Hip': [], 'Gender': [], 'w2h_ratio': [], 'shape': []}\n"
      ]
     }
    ],
@@ -397,22 +398,21 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 73,
+   "execution_count": 4,
    "metadata": {
     "collapsed": false
    },
    "outputs": [
     {
-     "data": {
-      "text/html": [
-       "<table><tr><th>ID</th><th>Waist</th><th>Hip</th><th>Gender</th></tr><tr><td>2</td><td>32</td><td>37</td><td>M</td></tr><tr><td>3</td><td>30</td><td>36</td><td>M</td></tr><tr><td>4</td><td>33</td><td>39</td><td>M</td></tr><tr><td>5</td><td>29</td><td>33</td><td>M</td></tr><tr><td>6</td><td>32</td><td>38</td><td>M</td></tr><tr><td>7</td><td>33</td><td>42</td><td>M</td></tr><tr><td>8</td><td>30</td><td>40</td><td>M</td></tr><tr><td>9</td><td>30</td><td>37</td><td>M</td></tr><tr><td>10</td><td>32</td><td>39</td><td>M</td></tr><tr><td>11</td><td>24</td><td>35</td><td>F</td></tr><tr><td>12</td><td>25</td><td>37</td><td>F</td></tr><tr><td>13</td><td>24</td><td>37</td><td>F</td></tr><tr><td>14</td><td>22</td><td>34</td><td>F</td></tr><tr><td>15</td><td>26</td><td>38</td><td>F</td></tr><tr><td>16</td><td>26</td><td>37</td><td>F</td></tr><tr><td>17</td><td>25</td><td>38</td><td>F</td></tr><tr><td>18</td><td>26</td><td>37</td><td>F</td></tr><tr><td>19</td><td>28</td><td>40</td><td>F</td></tr><tr><td>20</td><td>23</td><td>35</td><td>F</td></tr></table>"
-      ],
-      "text/plain": [
-       "<IPython.core.display.HTML object>"
-      ]
-     },
-     "metadata": {},
-     "output_type": "display_data"
+     "ename": "NameError",
+     "evalue": "name 'rows' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-4-a6838b320d50>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;31m# Note: this works, but we can do this much better with pandas\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0mhtml_table\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m'<table><tr><th>'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 5\u001b[0;31m \u001b[0mhtml_table\u001b[0m \u001b[0;34m+=\u001b[0m \u001b[0;34m\"</th><th>\"\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mjoin\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mrows\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      6\u001b[0m \u001b[0mhtml_table\u001b[0m \u001b[0;34m+=\u001b[0m \u001b[0;34m'</th></tr>'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      7\u001b[0m \u001b[0;32mfor\u001b[0m \u001b[0mrow\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mrows\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'rows' is not defined"
+     ]
     }
    ],
    "source": [
@@ -420,17 +420,16 @@
     "\n",
     "# Note: this works, but we can do this much better with pandas\n",
     "html_table = '<table><tr><th>'\n",
-    "html_table += \"</th><th>\".join(key_lst)\n",
+    "html_table += \"</th><th>\".join(rows[0])\n",
     "html_table += '</th></tr>'\n",
     "for row in rows[1:]:\n",
     "    html_table += \"<tr><td>\"\n",
-    "    html_table += \"</td><td>\".join(str(col) for col in row.values())\n",
+    "    html_table += \"</td><td>\".join(str(col) for col in row)\n",
     "    html_table += \"</td></tr>\"\n",
     "html_table += \"</table>\"\n",
     "\n",
     "from IPython.display import HTML, display\n",
     "display(HTML(html_table))\n",
-    "\n",
     "\n",
     "html_file = open(\"StatsResults.html\", 'w')\n",
     "html_file.write(html_table)\n",
@@ -439,13 +438,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 76,
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
    "metadata": {},
    "outputs": [
     {
      "data": {
       "text/html": [
-       "<table><tr><th>ID</th><th>Waist</th><th>Hip</th><th>Gender</th><th>w2h_ratio</th><th>shape</th></tr><tr><td>[</td><td>1</td><td>,</td><td> </td><td>2</td><td>,</td><td> </td><td>3</td><td>,</td><td> </td><td>4</td><td>,</td><td> </td><td>5</td><td>,</td><td> </td><td>6</td><td>,</td><td> </td><td>7</td><td>,</td><td> </td><td>8</td><td>,</td><td> </td><td>9</td><td>,</td><td> </td><td>1</td><td>0</td><td>,</td><td> </td><td>1</td><td>1</td><td>,</td><td> </td><td>1</td><td>2</td><td>,</td><td> </td><td>1</td><td>3</td><td>,</td><td> </td><td>1</td><td>4</td><td>,</td><td> </td><td>1</td><td>5</td><td>,</td><td> </td><td>1</td><td>6</td><td>,</td><td> </td><td>1</td><td>7</td><td>,</td><td> </td><td>1</td><td>8</td><td>,</td><td> </td><td>1</td><td>9</td><td>,</td><td> </td><td>2</td><td>0</td><td>]</td></tr><tr><td>[</td><td>3</td><td>0</td><td>,</td><td> </td><td>3</td><td>2</td><td>,</td><td> </td><td>3</td><td>0</td><td>,</td><td> </td><td>3</td><td>3</td><td>,</td><td> </td><td>2</td><td>9</td><td>,</td><td> </td><td>3</td><td>2</td><td>,</td><td> </td><td>3</td><td>3</td><td>,</td><td> </td><td>3</td><td>0</td><td>,</td><td> </td><td>3</td><td>0</td><td>,</td><td> </td><td>3</td><td>2</td><td>,</td><td> </td><td>2</td><td>4</td><td>,</td><td> </td><td>2</td><td>5</td><td>,</td><td> </td><td>2</td><td>4</td><td>,</td><td> </td><td>2</td><td>2</td><td>,</td><td> </td><td>2</td><td>6</td><td>,</td><td> </td><td>2</td><td>6</td><td>,</td><td> </td><td>2</td><td>5</td><td>,</td><td> </td><td>2</td><td>6</td><td>,</td><td> </td><td>2</td><td>8</td><td>,</td><td> </td><td>2</td><td>3</td><td>]</td></tr><tr><td>[</td><td>3</td><td>2</td><td>,</td><td> </td><td>3</td><td>7</td><td>,</td><td> </td><td>3</td><td>6</td><td>,</td><td> </td><td>3</td><td>9</td><td>,</td><td> </td><td>3</td><td>3</td><td>,</td><td> </td><td>3</td><td>8</td><td>,</td><td> </td><td>4</td><td>2</td><td>,</td><td> </td><td>4</td><td>0</td><td>,</td><td> </td><td>3</td><td>7</td><td>,</td><td> </td><td>3</td><td>9</td><td>,</td><td> </td><td>3</td><td>5</td><td>,</td><td> </td><td>3</td><td>7</td><td>,</td><td> </td><td>3</td><td>7</td><td>,</td><td> </td><td>3</td><td>4</td><td>,</td><td> </td><td>3</td><td>8</td><td>,</td><td> </td><td>3</td><td>7</td><td>,</td><td> </td><td>3</td><td>8</td><td>,</td><td> </td><td>3</td><td>7</td><td>,</td><td> </td><td>4</td><td>0</td><td>,</td><td> </td><td>3</td><td>5</td><td>]</td></tr><tr><td>[</td><td>'</td><td>M</td><td>'</td><td>,</td><td> </td><td>'</td><td>M</td><td>'</td><td>,</td><td> </td><td>'</td><td>M</td><td>'</td><td>,</td><td> </td><td>'</td><td>M</td><td>'</td><td>,</td><td> </td><td>'</td><td>M</td><td>'</td><td>,</td><td> </td><td>'</td><td>M</td><td>'</td><td>,</td><td> </td><td>'</td><td>M</td><td>'</td><td>,</td><td> </td><td>'</td><td>M</td><td>'</td><td>,</td><td> </td><td>'</td><td>M</td><td>'</td><td>,</td><td> </td><td>'</td><td>M</td><td>'</td><td>,</td><td> </td><td>'</td><td>F</td><td>'</td><td>,</td><td> </td><td>'</td><td>F</td><td>'</td><td>,</td><td> </td><td>'</td><td>F</td><td>'</td><td>,</td><td> </td><td>'</td><td>F</td><td>'</td><td>,</td><td> </td><td>'</td><td>F</td><td>'</td><td>,</td><td> </td><td>'</td><td>F</td><td>'</td><td>,</td><td> </td><td>'</td><td>F</td><td>'</td><td>,</td><td> </td><td>'</td><td>F</td><td>'</td><td>,</td><td> </td><td>'</td><td>F</td><td>'</td><td>,</td><td> </td><td>'</td><td>F</td><td>'</td><td>]</td></tr><tr><td>[</td><td>0</td><td>.</td><td>9</td><td>3</td><td>7</td><td>5</td><td>,</td><td> </td><td>0</td><td>.</td><td>8</td><td>6</td><td>4</td><td>8</td><td>6</td><td>4</td><td>8</td><td>6</td><td>4</td><td>8</td><td>6</td><td>4</td><td>8</td><td>6</td><td>4</td><td>9</td><td>,</td><td> </td><td>0</td><td>.</td><td>8</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>4</td><td>,</td><td> </td><td>0</td><td>.</td><td>8</td><td>4</td><td>6</td><td>1</td><td>5</td><td>3</td><td>8</td><td>4</td><td>6</td><td>1</td><td>5</td><td>3</td><td>8</td><td>4</td><td>6</td><td>1</td><td>,</td><td> </td><td>0</td><td>.</td><td>8</td><td>7</td><td>8</td><td>7</td><td>8</td><td>7</td><td>8</td><td>7</td><td>8</td><td>7</td><td>8</td><td>7</td><td>8</td><td>7</td><td>8</td><td>8</td><td>,</td><td> </td><td>0</td><td>.</td><td>8</td><td>4</td><td>2</td><td>1</td><td>0</td><td>5</td><td>2</td><td>6</td><td>3</td><td>1</td><td>5</td><td>7</td><td>8</td><td>9</td><td>4</td><td>7</td><td>,</td><td> </td><td>0</td><td>.</td><td>7</td><td>8</td><td>5</td><td>7</td><td>1</td><td>4</td><td>2</td><td>8</td><td>5</td><td>7</td><td>1</td><td>4</td><td>2</td><td>8</td><td>5</td><td>7</td><td>,</td><td> </td><td>0</td><td>.</td><td>7</td><td>5</td><td>,</td><td> </td><td>0</td><td>.</td><td>8</td><td>1</td><td>0</td><td>8</td><td>1</td><td>0</td><td>8</td><td>1</td><td>0</td><td>8</td><td>1</td><td>0</td><td>8</td><td>1</td><td>0</td><td>9</td><td>,</td><td> </td><td>0</td><td>.</td><td>8</td><td>2</td><td>0</td><td>5</td><td>1</td><td>2</td><td>8</td><td>2</td><td>0</td><td>5</td><td>1</td><td>2</td><td>8</td><td>2</td><td>0</td><td>5</td><td>,</td><td> </td><td>0</td><td>.</td><td>6</td><td>8</td><td>5</td><td>7</td><td>1</td><td>4</td><td>2</td><td>8</td><td>5</td><td>7</td><td>1</td><td>4</td><td>2</td><td>8</td><td>5</td><td>7</td><td>,</td><td> </td><td>0</td><td>.</td><td>6</td><td>7</td><td>5</td><td>6</td><td>7</td><td>5</td><td>6</td><td>7</td><td>5</td><td>6</td><td>7</td><td>5</td><td>6</td><td>7</td><td>5</td><td>7</td><td>,</td><td> </td><td>0</td><td>.</td><td>6</td><td>4</td><td>8</td><td>6</td><td>4</td><td>8</td><td>6</td><td>4</td><td>8</td><td>6</td><td>4</td><td>8</td><td>6</td><td>4</td><td>8</td><td>7</td><td>,</td><td> </td><td>0</td><td>.</td><td>6</td><td>4</td><td>7</td><td>0</td><td>5</td><td>8</td><td>8</td><td>2</td><td>3</td><td>5</td><td>2</td><td>9</td><td>4</td><td>1</td><td>1</td><td>8</td><td>,</td><td> </td><td>0</td><td>.</td><td>6</td><td>8</td><td>4</td><td>2</td><td>1</td><td>0</td><td>5</td><td>2</td><td>6</td><td>3</td><td>1</td><td>5</td><td>7</td><td>8</td><td>9</td><td>5</td><td>,</td><td> </td><td>0</td><td>.</td><td>7</td><td>0</td><td>2</td><td>7</td><td>0</td><td>2</td><td>7</td><td>0</td><td>2</td><td>7</td><td>0</td><td>2</td><td>7</td><td>0</td><td>2</td><td>7</td><td>,</td><td> </td><td>0</td><td>.</td><td>6</td><td>5</td><td>7</td><td>8</td><td>9</td><td>4</td><td>7</td><td>3</td><td>6</td><td>8</td><td>4</td><td>2</td><td>1</td><td>0</td><td>5</td><td>3</td><td>,</td><td> </td><td>0</td><td>.</td><td>7</td><td>0</td><td>2</td><td>7</td><td>0</td><td>2</td><td>7</td><td>0</td><td>2</td><td>7</td><td>0</td><td>2</td><td>7</td><td>0</td><td>2</td><td>7</td><td>,</td><td> </td><td>0</td><td>.</td><td>7</td><td>,</td><td> </td><td>0</td><td>.</td><td>6</td><td>5</td><td>7</td><td>1</td><td>4</td><td>2</td><td>8</td><td>5</td><td>7</td><td>1</td><td>4</td><td>2</td><td>8</td><td>5</td><td>7</td><td>1</td><td>]</td></tr><tr><td>[</td><td>'</td><td>A</td><td>p</td><td>p</td><td>l</td><td>e</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>]</td></tr></table>"
+       "<table><tr><th>ID</th><th>Waist</th><th>Hip</th><th>Gender</th><th>w2h_ratio</th><th>shape</th></tr><tr><td>[</td><td>'</td><td>A</td><td>p</td><td>p</td><td>l</td><td>e</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>]</td></tr><tr><td>[</td><td>'</td><td>A</td><td>p</td><td>p</td><td>l</td><td>e</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>]</td></tr><tr><td>[</td><td>'</td><td>A</td><td>p</td><td>p</td><td>l</td><td>e</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>]</td></tr><tr><td>[</td><td>'</td><td>A</td><td>p</td><td>p</td><td>l</td><td>e</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>]</td></tr><tr><td>[</td><td>'</td><td>A</td><td>p</td><td>p</td><td>l</td><td>e</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>]</td></tr><tr><td>[</td><td>'</td><td>A</td><td>p</td><td>p</td><td>l</td><td>e</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>,</td><td> </td><td>'</td><td>P</td><td>e</td><td>a</td><td>r</td><td>'</td><td>]</td></tr></table>"
       ],
       "text/plain": [
        "<IPython.core.display.HTML object>"
